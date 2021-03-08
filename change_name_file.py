@@ -3,8 +3,9 @@ import os
 
 
 def main():
-   i = 19863
-   path = "C:/Users/Ngoc Phuong/Desktop/FOLDER/THESIS/DATASET/jpg/"
+   # number you want to start
+   i = 0 
+   path = "YOUR IMAGE PATH"
    for filename in os.listdir(path):
       my_dest = "IMG_" + str(i) + ".jpg"
       my_source = path + filename
